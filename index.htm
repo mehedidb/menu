@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+	<title>Perfect Multipurpose HTML5 Template</title>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Perfect Multipurpose HTML5 Template">
+	<meta name="author" content="Craftdzine">
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/header-1.css">
+
+	<link rel="stylesheet" href="css/footer-1.css">
+
+	<link rel="stylesheet" href="css/sidebar-menu.css">
+
+</head>
+
+<body>
+	<!--Preloader-->
+	<div class="se-pre-con"></div>
+
+	<!-- Sidemenu -->
+	<section id="pushmenu-right" class="pushmenu pushmenu-right side-menu">
+		<a id="menu-sidebar-close-icon" class="menu-close"><i class="fa fa-close"></i></a>
+		<h5 class="white">Sign In</h5>
+		<div class="sign-in">
+			<input class="input-sm form-full" type="email" aria-required="true" id="email" name="email" placeholder="Email" value="">
+			<input class="input-sm form-full" type="password" aria-required="true" id="password" name="password" placeholder="Password" value="">
+			<input type="submit" class="btn btn-md btn-color form-full" value="Sign In">
+		</div>
+		<ul>
+			<li><a href="#">Home Default</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Login & Register</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Service</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">404 Error</a></li>
+			<li><a href="#">Shopping Cart</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</section>
+	<!--End Sidemenu -->
+
+	<!-- TOP BAR -->
+	<div id="topBar">
+		<div class="container">
+
+			<!-- left -->
+			<ul class="top-links list-inline">
+				<li>
+					<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="img/flags/us.png" alt="lang" width="16" height="11"> ENGLISH</a>
+					<ul class="dropdown-langs dropdown-menu">
+						<li>
+							<a tabindex="-1" href="#"><img class="flag-lang" src="img/flags/us.png" alt="lang" width="16" height="11"> ENGLISH</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a tabindex="-1" href="#"><img class="flag-lang" src="img/flags/de.png" alt="lang" width="16" height="11"> GERMAN</a>
+						</li>
+						<li>
+							<a tabindex="-1" href="#"><img class="flag-lang" src="img/flags/ru.png" alt="lang" width="16" height="11"> RUSSIAN</a>
+						</li>
+						<li>
+							<a tabindex="-1" href="#"><img class="flag-lang" src="img/flags/it.png" alt="lang" width="16" height="11"> ITALIAN</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#">USD</a>
+					<ul class="dropdown-langs dropdown-menu">
+						<li><a tabindex="-1" href="#">USD</a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="#">EUR</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<!-- right -->
+			<ul class="top-links list-inline pull-right">
+				<li class="text-welcome hidden-xs">Welcome to Perfect, <strong>John Doe</strong></li>
+				<li>
+					<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><i class="fa fa-user hidden-xs"></i> MY ACCOUNT</a>
+					<ul class="dropdown-menu pull-right">
+						<li><a tabindex="-1" href="#"><i class="fa fa-history"></i> ORDER HISTORY</a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="#"><i class="fa fa-bookmark"></i> MY WISHLIST</a></li>
+						<li><a tabindex="-1" href="#"><i class="fa fa-edit"></i> MY REVIEWS</a></li>
+						<li><a tabindex="-1" href="#"><i class="fa fa-cog"></i> MY SETTINGS</a></li>
+						<li class="divider"></li>
+						<li><a tabindex="-1" href="#"><i class="glyphicon glyphicon-off"></i> LOGOUT</a></li>
+					</ul>
+				</li>
+			</ul>
+
+
+		</div>
+	</div>
+	<!-- TOP BAR -->
+
+	<!-- Header -->
+	<header id="header" class="header shadow-after">
+		<div class="container">
+			<!-- Logo -->
+			<div class="logo">
+				<a href="index-1.htm">
+					<img class="header-logo" src="img/logo.png" alt="Perfect">
+				</a>
+			</div>
+			<!-- End Logo -->
+
+			<!-- Search, Cart -->
+			<div class="rightside-icon">
+				<ul>
+					<!-- Search Icon -->
+					<li class="">
+						<a class="cd-search-btn-wrap right-side-icons"><i class="fa fa-search"></i></a>
+						<!-- Search Overlay Menu -->
+						<div class="cd-search-btn">
+							<span class="cd-search-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+							<form role="search" id="searchform" action="/search" method="get">
+								<input value="" name="search" type="search" placeholder="Search...">
+								<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</form>
+						</div>
+					</li>
+					<!-- End Search Icon -->
+
+
+					<!-- Cart Icon -->
+					<li class="cart">
+						<a class="right-side-icons" href="#">
+							<i class="fa fa-shopping-cart"></i>
+							<div class="shopping-cart-item-wrap"><span class="shopping-cart-item">2</span></div>
+						</a>
+						<div class="shopping-cart-open">
+							<ul class="cart-item-list">
+								<li>
+									<a class="close-cart-item-list"><i class="fa fa-times-circle"></i></a>
+									<div class="media">
+										<a class="pull-left">
+											<img src="img/products/cart1.jpg" alt="fashion"></a>
+										<div class="media-body">
+											<span><a>Printed Summer Dress</a></span>
+											<p>$399.00</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a class="close-cart-item-list"><i class="fa fa-times-circle"></i></a>
+									<div class="media">
+										<a class="pull-left">
+											<img src="img/products/cart2.jpg" alt="fashion"></a>
+										<div class="media-body">
+											<span><a>Printed Summer Dress</a></span>
+											<p>$399.00</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<p class="cart-sub-totle clearfix"><span class="pull-left">Cart Subtotal</span><span class="pull-right totle"><strong>$798.00</strong></span></p>
+							<div class="shopping-cart-checkout-btn">
+								<a href="#" class="btn">Checkout</a>
+							</div>
+						</div>
+					</li>
+					<!-- End Cart Icon -->
+					<!--Sidebar Menu Icon-->
+					<li class="">
+						<a id="menu-sidebar-list-icon" class="nav-bar-icon"><span></span></a>
+					</li>
+					<!-- End Sidebar Menu Icon-->
+
+				</ul>
+			</div>
+			<!-- End  Search, Cart -->
+
+
+
+			<!-- Mobile Navbar Icon -->
+			<div class="nav-mobile nav-bar-icon">
+				<span></span>
+			</div>
+
+			<!-- Navbar Navigation -->
+			<div class="nav-menu">
+				<ul class="nav-menu-wrap">
+					<li>
+						<a class="nav-menu-list" href="home.html">Home <i class="fa fa-angle-down"></i></a>
+						<!-- Dropdown -->
+						<ul class="sub-menu-dropdown-list dropdown">
+							<li>
+								<a class="nav-menu-list" href='#'>Multipurpose <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+
+							<li>
+								<a class="nav-menu-list" href="#">One Page <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+
+						</ul>
+						<!-- End Dropdown -->
+					</li>
+					<li>
+						<a class="nav-menu-list">Pages <i class="fa fa-angle-down"></i></a>
+						<!-- Dropdown -->
+						<ul class="sub-menu-dropdown-list dropdown">
+							<li>
+								<a class="nav-menu-list">About Us <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home Default</a></li>
+						</ul>
+						<!-- End Dropdown -->
+					</li>
+
+
+					<li>
+						<a class="nav-menu-list">Features <i class="fa fa-angle-down"></i></a>
+						<!-- Dropdown -->
+						<ul class="sub-menu-dropdown-list dropdown">
+							<li>
+								<a class="nav-menu-list">Headers <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="header-1.htm">Header 1</a></li>
+									<li><a href="header-2.htm">Header 2</a></li>
+								</ul>
+							</li>
+							<li><a href="footer-1.htm">Footer 1</a></li>
+							<li>
+								<a class="nav-menu-list">Sliders<i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+						</ul>
+						<!-- End Dropdown -->
+					</li>
+
+
+					<li>
+						<a class="nav-menu-list">Portfolio <i class="fa fa-angle-down"></i></a>
+						<!-- Dropdown -->
+						<ul class="sub-menu-dropdown-list dropdown">
+							<li>
+								<a class="nav-menu-list">Grid <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+
+							<li>
+								<a class="nav-menu-list">Wide <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+							<li>
+								<a class="nav-menu-list">Single <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+						</ul>
+						<!-- End Dropdown -->
+					</li>
+
+					<li>
+						<a class="nav-menu-list">Blog <i class="fa fa-angle-down"></i></a>
+						<!-- Dropdown -->
+						<ul class="sub-menu-dropdown-list dropdown">
+							<li>
+								<a class="nav-menu-list">Grid <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+							<li>
+								<a class="nav-menu-list">One Columns <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+							<li>
+								<a class="nav-menu-list">Blog Detail <i class="fa fa-angle-right"></i></a>
+								<ul class="sub-menu-dropdown-list">
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+									<li><a href="#">Home Default</a></li>
+								</ul>
+							</li>
+						</ul>
+						<!-- End Dropdown -->
+					</li>
+
+					<li>
+						<a class="nav-menu-list">Shop <i class="fa fa-angle-down"></i></a>
+						<!-- Dropdown -->
+						<ul class="sub-menu-dropdown-list dropdown">
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home Default</a></li>
+						</ul>
+						<!-- End Dropdown -->
+					</li>
+
+					<li>
+						<a class="nav-menu-list">Shortcodes <i class="fa fa-angle-down"></i></a>
+						<!-- Dropdown -->
+						<ul class="sub-menu-dropdown-list dropdown">
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home Default</a></li>
+						</ul>
+						<!-- End Dropdown -->
+					</li>
+					<li>
+						<a class="nav-menu-list">ShowCase <i class="fa fa-angle-down"></i></a>
+						<ul class="mega-menu-dropdown-list sub-menu-dropdown-list dropdown">
+							<li>
+								<div class="row">
+									<div class="col-menu col-md-2">
+										<h5 class="title">PROPERTIES LIST</h5>
+										<div class="content">
+											<ul class="mega-menu-list">
+												<li><a href="showcase_property.html">Properties List</a></li>
+												<li><a href="showcase_property.html">Single Property</a></li>
+												<li><a href="showcase_property.html">Search by City</a></li>
+												<li><a href="showcase_property.html">Search by Category</a></li>
+												<li><a href="showcase_property.html">Search by Type</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-menu col-md-2">
+										<h5 class="title">PROPERTIES LIST</h5>
+										<div class="content">
+											<ul class="mega-menu-list">
+												<li><a href="showcase_property.html">Properties List</a></li>
+												<li><a href="showcase_property.html">Single Property</a></li>
+												<li><a href="showcase_property.html">Search by City</a></li>
+												<li><a href="showcase_property.html">Search by Category</a></li>
+												<li><a href="showcase_property.html">Search by Type</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- End Navbar Navigation -->
+		</div>
+	</header>
+	<!-- End Header -->
+
+
+	<!-- START FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<!-- CONTACT WIDGET -->
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="widget">
+						<h6 class="text-uppercase bottom-line">Contact Us</h6>
+						<address>
+                                    <p>121 King Street, Melbourne, Australia,
+                                        Melbourne, Australia</p><br>
+                                    <p>Phone: (+123) 12-345-6789</p>
+                                    <p>Fax: (+123) 12-345-6789</p>
+                                    <p>E-mail: <a href="mailto:craftdesignstaff@gmail.com">craftdesignstaff@gmail.com</a></p>
+                                </address>
+					</div>
+				</div>
+				<!-- END CONTACT WIDGET -->
+
+
+				<!-- CATEGORIES WIDGET -->
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="widget">
+						<h6 class="montserrat text-uppercase bottom-line">Categories</h6>
+						<ul class="icons-list">
+							<li><a href="#">Fashion <span class="pull-right">12</span></a></li>
+							<li><a href="#">Blogger <span class="pull-right">11</span></a></li>
+							<li><a href="#">Sport <span class="pull-right">10</span></a></li>
+							<li><a href="#">Photography <span class="pull-right">14</span></a></li>
+							<li><a href="#">Popular <span class="pull-right">15</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- END CATEGORIES WIDGET -->
+
+
+				<!-- RECENT POSTS WIDGET -->
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="widget">
+						<h6 class="text-uppercase bottom-line">Recent Posts</h6>
+						<ul class="recent-posts">
+							<li>
+								<div class="widget-posts-image">
+									<a href="#"><img src="img/blog/1.jpg" alt=""></a>
+								</div>
+								<div class="widget-posts-body">
+									<h6 class="widget-posts-title"><a href="#">Lorem ipsum dolor</a></h6>
+									<div class="widget-posts-meta">October 18, 2016 </div>
+								</div>
+							</li>
+							<li>
+								<div class="widget-posts-image">
+									<a href="#"><img src="img/blog/2.jpg" alt=""></a>
+								</div>
+								<div class="widget-posts-body">
+									<h6 class="widget-posts-title"><a href="#">Lorem ipsum dolor</a></h6>
+									<div class="widget-posts-meta">November 15, 2016 </div>
+								</div>
+							</li>
+							<li>
+								<div class="widget-posts-image">
+									<a href="#"><img src="img/blog/3.jpg" alt=""></a>
+								</div>
+								<div class="widget-posts-body">
+									<h6 class="widget-posts-title"><a href="#">Lorem ipsum dolor</a></h6>
+									<div class="widget-posts-meta">December 01, 2016 </div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- END RECENT POSTS WIDGET -->
+
+
+				<!-- CATEGORIES WIDGET -->
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="widget">
+						<h6 class="text-uppercase bottom-line">Subscribe to Newsletter</h6>
+						<p>Lorem ipsum dolor sit amet, Nunc aliquam justo et nibh venenatis aliquet. Morbi mollis mollis Nunc.</p>
+						<div class="newsletter">
+							<form method="post" action="#">
+								<input placeholder="Email address..." name="email" class="follow-by-email-address" type="text">
+
+								<a class="btn btn-product cd-cart-btn" href="#">Submit</a>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- CATEGORIES WIDGET -->
+
+			</div>
+
+			<!-- CONTACT WIDGET -->
+			<div class="copyright">
+				<div class="text-center">
+					<p>© All Rights Reserved @ <a target="_blank" href="http://craftdzine.com">CraftDzine</a></p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	<!-- END FOOTER-->
+
+	<!-- JQUERY LIBS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<!-- BOOTSTRAP -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- sidebar-menu-->
+	<script type="text/javascript" src="js/sidebar-menu.js"></script>
+	<!-- NAVIGATION -->
+	<script type="text/javascript" src="js/navigation.js"></script>
+
+	<!-- CUSTOM-->
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<!--[if lt IE 9]>
+        <script src="respond.js"></script>
+        <script src="html5shiv.js"></script>
+    <![endif]-->
+
+</body>
+
+</html>
